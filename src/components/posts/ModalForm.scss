@@ -1,0 +1,29 @@
+.post-form {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #363636;
+        padding-bottom: 15px;
+    }
+
+    &__field {
+        border: none;
+        padding: 15px;
+        background: #FAFAFA;
+        border-radius: 8px;
+    }
+
+    &__textarea {
+        border: none;
+        padding: 15px;
+        background: #FAFAFA;
+        border-radius: 8px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+}
